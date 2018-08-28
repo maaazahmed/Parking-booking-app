@@ -1,0 +1,79 @@
+.parkingCard{
+    width: 98%;
+    margin: auto;
+    margin-bottom: 4px;
+    border-radius: 3px !important;
+    box-shadow: none !important;
+    transition: background-color .5s, box-shadow 0.5s , border .2s !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.parkingCard:hover{
+    background-color: #ffffff !important;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+   0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 2px 1px -1px rgba(0, 0, 0, 0.12) !important;
+    border: .6px solid #3f51b5
+}
+
+
+.CardContent_div{
+    display: flex;
+    justify-content: space-between;
+    margin:10px 
+}
+
+
+.parkingAreaVal {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #3f51b5;
+    width: 30%
+}
+.numberOfSlots{
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    color: #3f51b5;
+    width: 30%
+
+}
+
+/* .MuiCardContent-root-127:last-child {
+    padding-bottom: 12px !important;
+    padding-top: 12px !important;
+} */
+
+
+.AddButton{
+    position: fixed;
+    right: 25px;
+    bottom: 15px;
+}
+/* .MuiPaper-elevation1-12 {
+    border: .6px solid #3f51b5;
+    border-radius: 3px !important;
+    box-shadow: none !important;
+    transition: background-color .5s, box-shadow 0.5s , border .50s !important;
+} */
+
+/* 
+.MuiPaper-elevation1-12:hover{
+  background-color: #ffffff !important;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+   0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 2px 1px -1px rgba(0, 0, 0, 0.12) !important;
+
+} */
+
+
+.MuiCardContent-root-122:last-child {
+
+}
